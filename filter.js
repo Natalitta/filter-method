@@ -92,7 +92,7 @@ console.log(candsNames);
 
 /*Filter challenge*/
 
-let students = [
+let studs = [
   {
       name: 'John',
       subjects: ['maths', 'english', 'cad'],
@@ -120,5 +120,5 @@ let students = [
 ];
 
 
-const topMaths = students.filter(itm => itm.results.maths >= 90);
+const topMaths = studs.filter(itm => itm.results.maths >= 90);
 console.log(topMaths);
